@@ -95,6 +95,7 @@ int main() {
   stop = high_resolution_clock::now();
   int ht = duration_cast<microseconds>(stop - start).count();
   cout<<endl;
+    
     cout << "brute function implemented and time taken: "
        <<bt<< endl;
    cout << "two-pointer function implemented and time taken: "
